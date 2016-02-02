@@ -1,0 +1,16 @@
+Author:	Patrick Drumm
+NetID:	pdrumm
+
+Files present in directory:
+	udpserver.cpp
+	udpserver	// the compiled executable of udpserver.cpp
+
+INSTRUCTIONS
+Compile:
+	g++ -o udpserver udpserver.cpp
+Execute:
+	type the executable name, followed by a single argument
+		1) port number (41007 is the port number assigned to 'pdrumm')
+
+	example:
+		./udpserver 41007

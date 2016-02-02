@@ -1,0 +1,15 @@
+Authors:	Patrick Drumm,	pdrumm
+		Kris Thieneman,	kthienem
+		Nick Lombardo,	nlombard
+
+Files present in program3 directory:
+	./README
+	./client/tcpclient.cpp
+	./client/Makefile
+	./server/tcpserver.cpp
+	./server/Makefile
+	./server/LargeFile.mp4
+	./server/MediumFile.pdf
+	./server/SmallFile.txt
+
+Note that LargeFile.mp4, MediumFile.pdf, and SmallFile.txt are each symbolic links pointing to the program3 directory for this course. They are in the server subdirectory because the server is the file that needs to access each of these - for this assignment.

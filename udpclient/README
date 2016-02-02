@@ -1,0 +1,22 @@
+Author:	Patrick Drumm
+NetID:	pdrumm
+
+Files present in directory:
+	udpclient.cpp
+	udpclient	// the compiled executable of udpclient.cpp
+
+INSTRUCTIONS
+Compile:
+	g++ -o udpclient udpclient.cpp
+Execute:
+	type executable name followed by three arguments
+		1) server host name
+		2) port number
+		3) string or text file
+	examples:
+		1) ./udpclient student02.cse.nd.edu 41500 "This is a test"
+		2) ./udpclient student02.cse.nd.edu 41500 Thisisatest
+		3) ./udpclient student03.cse.nd.edu 41500 File1.txt
+	examples 1,2 show an example of a string input
+	example 3 shows an example of a file input
+		> Note that all file names not capable of being opened are interpretted as a "random string"
